@@ -1,4 +1,4 @@
 # seng438-assignment-1
 
 # Guidline
-- TBD 
+- read [assignment guideline](seng438-assignment-1.md) 
