@@ -119,9 +119,9 @@ page.
 >   approved by instructor prior to the assignment deadline. If a team can’t
 >   upload their submission to D2L due to D2L technical difficulties, they
 >   should send their submission to
->   [Fatemeh.sharifi1@ucalgary.ca](mailto:Fatemeh.sharifi1@ucalgary.ca) or
->   [masoud.karimifatemi@ucalgary.ca](mailto:masoud.karimifatemi@ucalgary.ca) or
->   [yousef.mehrdadbibala@ucalgary.ca](mailto:yousef.mehrdadbibala@ucalgary.ca)
+>   [Anja.slama@ucalgary.ca](mailto:anja.slama@ucalgary.ca) or
+>   [Masoud.karimifatemi@ucalgary.ca](mailto:masoud.karimifatemi@ucalgary.ca) or
+>   [Yousef.mehrdadbibala@ucalgary.ca](mailto:yousef.mehrdadbibala@ucalgary.ca)
 >   before the deadline.
 
 # TESTING DEFINITIONS
