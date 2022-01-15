@@ -4,21 +4,24 @@
 
 >   **Introduction to Testing and Defect (Bug) Tracking**
 
->   Instructor: Dr. Behrouz Far (far@ucalgary.ca)
+>   Instructors: 
+>   -   Dr. Behrouz Far (far@ucalgary.ca)
+>   -   Dr. Kangsoo Kim (kangsoo.kim@ucalgary.ca)
 
 >   Teaching Assistants:
 
->   Yousef Mehrdad Bibalan (yousef.mehrdadbibala@ucalgary.ca)
+>   -   Yousef Mehrdad Bibalan (yousef.mehrdadbibala@ucalgary.ca)
+>   -   Anja Slama (anja.slama@ucalgary.ca)
+>   -   Esmaeil Shakeri Hossein Abad (esmaeil.shakerihosse@ucalgary.ca)
+>   -   Reyhaneh Jafari (reyhaneh.jafari@ucalgary.ca)
+>   -   Yalda Afshar (yalda.afshar@ucalgary.ca)
 
->   Masoud Karimi Fatemi (masoud.karimifatemi@ucalgary.ca)
-
->   Anja Slama (anja.slama@ucalgary.ca)
 
 >   Department of Electrical and Computer Engineering
 
 >   University of Calgary
 
-Due Date: TBD
+Due Date: January 27, 2022 (11:59 PM)
 
 >   **Interesting Quotes on Defect (Bug) Reports**
 
@@ -83,10 +86,10 @@ Due Date: TBD
 
 -   Hands-on experience in testing an example software system
 
-    -   The difference between exploratory (manual non-scripted) testing versus
+-   The difference between exploratory (manual non-scripted) testing versus
         manual scripted testing, and regression testing
 
-        -   Industrial defect tracking systems, processes and practices
+-   Industrial defect tracking systems, processes and practices
 
 # PAIR TESTING
 
@@ -101,28 +104,18 @@ Due Date: TBD
 
 Two students of each group will work together (pair testing) to complete the lab
 report. Then, both pairs of a group (i.e. two pairs in a group of 4 students)
-will combine their reports and submit one final lab report in D2L. In cases of
+will combine their reports and submit one final lab report. In cases of
 teams with five members, one “pair” will have an extra member (3 students work
 together).
 
 # SUBMISSION STYLE, DUE DATE AND LATE MARKING POLICY
 
-All the lab reports in this course should be submitted on the D2L. For each
-assignment, every group will have a Dropbox folder under assignment section. Any
-member of the group can submit the lab report, however, make sure your group
-number and the full name of all team members are clearly mentioned on the cover
-page.
+All the lab reports in this course should be submitted on GitHub. Please make sure your group number and the full name of all team members are clearly mentioned on the cover page of your lab report.
+One member of the group should submit the link to the GitHub repository on D2l (under the corresponding Dropbox folder).
+You need to submit your lab reports and all the necessary files (e.g., test code, source code. See Section 3 for more details) by the exact deadline. 
+Permission for late submission must be approved by instructor prior to the assignment deadline. If a team cannot upload their submission to D2L due to D2L technical difficulties, they should send their submission to one of the TAs before the deadline.
+The due date for this assignment is January 27, 2022 (before midnight).
 
->   Deadlines will be announced on the D2L. You need to submit your lab reports
->   and all the necessary files (e.g., test code, source code. See Section 3 for
->   more details) by the exact deadline. Permission for late submission must be
->   approved by instructor prior to the assignment deadline. If a team can’t
->   upload their submission to D2L due to D2L technical difficulties, they
->   should send their submission to
->   [Anja.slama@ucalgary.ca](mailto:anja.slama@ucalgary.ca) or
->   [Masoud.karimifatemi@ucalgary.ca](mailto:masoud.karimifatemi@ucalgary.ca) or
->   [Yousef.mehrdadbibala@ucalgary.ca](mailto:yousef.mehrdadbibala@ucalgary.ca)
->   before the deadline.
 
 # TESTING DEFINITIONS
 
@@ -141,7 +134,7 @@ for a specific issue with detailed reproduction steps, and a clear expected
 result. Exploratory testing is most often used as a complement to other types of
 testing.1
 
-1.  **Manual Scripted Testing**
+2.  **Manual Scripted Testing**
 
 Manual scripted testing is the oldest and one of the most rigorous types of
 software testing. In this particular type of testing, test cases are designed
@@ -165,7 +158,7 @@ the project. Scripted test cases might be useful where tests are used for the
 benchmarking purpose and tests have to be executed exactly in the same way,
 every time.
 
-1.  **Regression Testing**
+3.  **Regression Testing**
 
 Regression testing is any type of software testing that seeks to uncover new
 errors, or regressions, in existing functionality after changes have been made
@@ -244,7 +237,7 @@ online, see reference [1] for the URL. The purpose of the system is to allow the
 user to deposit, withdraw, query and transfer funds to/from his/her hypothetical
 bank account(s).
 
-1.  **Usage of the System**
+2.  **Usage of the System**
 
     To use the ATM simulation system, run JAR file *ATM System – Lab 1 Version
     1.0.jar* which is inside *Assignment 1 - artifacts.zip*. The system should
@@ -268,164 +261,162 @@ bank account(s).
 
 # FAMILIARIZATION WITH THE ATM SYSTEM
 
-1.  Run the JAR file *ATM System - Lab 1 Version 1.0.jar* to show the GUI as
+1. Run the JAR file *ATM System - Lab 1 Version 1.0.jar* to show the GUI as
     shown in Appendix A.
 
-    1.  Turn the system on using the “On” button.
+2. Turn the system on using the “On” button.
 
-        1.  Enter the number of \$20 bills that the system is assumed to start
-            off with, noting that this is the number of bills, not the total
-            value of the bills. Entering a value of 10 for instance indicates
-            that the ATM is starting with \$200 (10 twenty-dollar bills). Any
-            number greater than 0 will suffice for now.
+3. Enter the number of \$20 bills that the system is assumed to start
+    off with, noting that this is the number of bills, not the total
+    value of the bills. Entering a value of 10 for instance indicates
+    that the ATM is starting with \$200 (10 twenty-dollar bills). Any
+    number greater than 0 will suffice for now.
 
-        2.  Click on the “Click to insert card” button which has now appeared on
-            the main interface below the simulated ATM display.
+4. Click on the “Click to insert card” button which has now appeared on
+    the main interface below the simulated ATM display.
 
-        3.  The screen now changes to a prompt for the user to input the card
-            number (since there is no actual physical card reader). Enter 1 for
-            the card number and press Enter. Upon returning to the main screen,
-            the display is now requesting the PIN be entered.
+5. The screen now changes to a prompt for the user to input the card
+    number (since there is no actual physical card reader). Enter 1 for
+    the card number and press Enter. Upon returning to the main screen,
+    the display is now requesting the PIN be entered.
 
-        4.  Type 42 using the simulated keypad and press Enter. The display now
-            prompts the user to perform one of four transactions: withdraw,
-            deposit, transfer, or balance inquiry.
+6. Type 42 using the simulated keypad and press Enter. The display now
+    prompts the user to perform one of four transactions: withdraw,
+    deposit, transfer, or balance inquiry.
 
-        5.  Press 2 on the simulated keypad to perform a deposit. The display
-            now prompts the user to indicate which account they would like to
-            deposit to: checking, savings, or the money market account.
+7. Press 2 on the simulated keypad to perform a deposit. The display
+    now prompts the user to indicate which account they would like to
+    deposit to: checking, savings, or the money market account.
 
-        6.  Press 2 on the simulated keypad to deposit to the savings account.
-            The display now prompts the user to enter the deposit amount.
+8. Press 2 on the simulated keypad to deposit to the savings account.
+    The display now prompts the user to enter the deposit amount.
 
-        7.  Enter any positive amount and press Enter. A button which represents
-            the user inserting the deposit envelope now appears.
+9. Enter any positive amount and press Enter. A button which represents
+    the user inserting the deposit envelope now appears.
 
-        8.  Click that button to simulate inserting the envelope. The display
-            now prompts the user whether they wish to perform another
-            transaction or not.
+10. Click that button to simulate inserting the envelope. The display
+     now prompts the user whether they wish to perform another
+     transaction or not.
 
-        9.  Press 2 on the simulated keypad to indicate you do not wish to
-            perform another transaction. The main window shows a button
-            appearing, simulating the ejecting of the user’s card.
+11. Press 2 on the simulated keypad to indicate you do not wish to
+     perform another transaction. The main window shows a button
+     appearing, simulating the ejecting of the user’s card.
 
-        10. Press the System Power Button once again to turn the ATM system off.
+12. Press the System Power Button once again to turn the ATM system off.
 
 # FAMILIARIZATION WITH BLACKLOG
 
-1.  **Logging in**
+1. **Logging in**
 
-    1.  Navigate to the following website:
-        [https://register.backlog.com/trial/with-new-account/plan/en/12](http://portal.bugheaven.com/#signup)
+   1. Navigate to the following website:
+       [https://register.backlog.com/trial/with-new-account/plan/en/12](http://portal.bugheaven.com/#signup)
 
-        1.  For the Profile information enter the followings:
+   2. For the Profile information enter the followings:
 
-            -   Full Name: LAB1-Group\#, E.g., LAB1-1 ([Group\#] is the number
-                of your group).
+       - Full Name: LAB1-Group\#, e.g., LAB1-1 ([Group\#] is the number
+           of your group).
 
-                -   SpaceID: senggroup\#, e.g. senggroup2 (ALL the letters
-                    should be lowercase here)
+           -   SpaceID: senggroup\#, e.g., senggroup2 (ALL the letters
+               should be lowercase here)
 
-                -   Organization Name: Software Testing - UofC
+           -   Organization Name: Software Testing - UofC
 
-            1.  Email address: enter a valid email (each group needs to have
-                only one account)
+   3. Email address: enter a valid email (each group needs to have
+       only one account)
 
-                -   Type Your Password: (Make sure not to put personal password
-                    so all the group members can use it.)
+       - Type Your Password: (Make sure not to put personal password
+           so all the group members can use it.)
 
-                -   Confirm Your Password
+       - Confirm Your Password
 
-            2.  Filling the verification steps in your email
+   4. Filling the verification steps in your email
 
-            3.  Go to the login page (<https://apps.nulab.com/signin>) and enter
-                the credentials you created.
+   5. Go to the login page (<https://apps.nulab.com/signin>) and enter
+       the credentials you created.
 
-            4.  Now you are on the main page. Select
-                ![](media/7fb559392adedcdeac3c198bbde91f4f.tmp) in the **Add
-                Project** box.
+   6. Now you are on the main page. Select
+       ![](media/7fb559392adedcdeac3c198bbde91f4f.tmp) in the **Add
+       Project** box.
 
-            5.  Fill the Project Name and Project Key with “ATM Project” and
-                “ATM_1” respectively.
+   7. Fill the Project Name and Project Key with “ATM Project” and
+       “ATM_1” respectively.
 
-            6.  Now go to Dashboard page again . Select
-                ![](media/7fb559392adedcdeac3c198bbde91f4f.tmp) in the **Add
-                User** box. Select “**Administrator”** and invite all the group
-                members (except the guy who is creating and email is already
-                there). Again, Make sure that you have only one account for each
-                group, do not do it separately. The screenshot of the page is
-                shown below:
+   8. Now go to Dashboard page again . Select
+       ![](media/7fb559392adedcdeac3c198bbde91f4f.tmp) in the **Add
+       User** box. Select “**Administrator”** and invite all the other group members. Again, make sure that you have only one account for each
+       group, do not do it separately. The screenshot of the page is
+       shown below:
 
-                ![](media/e064392c48b4e7acc4de093df79cf8cd.png)
+       ![](media/e064392c48b4e7acc4de093df79cf8cd.png)
 
-            7.  Note the navigation options on the page; there is a navigation
-                and search bar at the top of the page, as well as several
-                commonly used links as the Projects on the main page.
+   9. Note the navigation options on the page; there is a navigation
+       and search bar at the top of the page, as well as several
+       commonly used links as the Projects on the main page.
 
-        2.  **Reporting a defect**
+2. **Reporting a defect**
 
-1.  Begin by clicking on the ![](media/8afd374ed8bdeb29f2009bc454e6c14d.tmp) on
-    the navigation bar, or the “Add Issue” link on the main page to begin
-    reporting a new defect for a specific project.
+   1. Begin by clicking on the ![](media/8afd374ed8bdeb29f2009bc454e6c14d.tmp) on
+       the navigation bar, or the “Add Issue” link on the main page to begin
+       reporting a new defect for a specific project.
 
-2.  The browser now shows a page which requires you to select the ATM Project.
+   2. The browser now shows a page which requires you to select the ATM Project.
 
-3.  A form is now displayed in the browser which is to be filled out indicating
-    the details of this particular defect. A screen shot of the form is shown
-    below.
+   3. A form is now displayed in the browser which is to be filled out indicating
+       the details of this particular defect. A screen shot of the form is shown
+       below.
 
-    ![](media/a73ff025a63cf5f3f979e87635d640d5.tmp)
+       ![](media/a73ff025a63cf5f3f979e87635d640d5.tmp)
 
-    1.  **Creating useful bug reports**
+3. **Creating useful bug reports**
 
-        No matter what defect tracking system you are using to report defects,
-        there are some elements that product supporters will expect and likely
-        require. When entering your bug reports, you should be sure to include
-        and make clear the following:
+    No matter what defect tracking system you are using to report defects,
+    there are some elements that product supporters will expect and likely
+    require. When entering your bug reports, you should be sure to include
+    and make clear the following:
 
-4.  The function being tested (e.g., Login)
+   1. The function being tested (e.g., Login)
 
-5.  The initial state of the system (e.g., System is on and is idle, i.e., not
-    already serving a customer)
+   2. The initial state of the system (e.g., System is on and is idle, i.e., not
+       already serving a customer)
 
-6.  Steps to reproduce the defect/bug (e.g., Insert a card, then enter correct
-    card number and PIN)
+   3. Steps to reproduce the defect/bug (e.g., Insert a card, then enter correct
+       card number and PIN)
 
-7.  What was the expected outcome? (e.g., the system successfully accepts the
-    customer, and shows the banking menu)
+   4. What was the expected outcome? (e.g., the system successfully accepts the
+       customer, and shows the banking menu)
 
-8.  What was the actual outcome?
+   5. What was the actual outcome?
 
 # EXPLORATORY (MANUAL NON-SCRIPTED) TESTING
 
-1.  In order to perform any testing, the requirements must first be known. Read
+1. In order to perform any testing, the requirements must first be known. Read
     over the requirements for the ATM simulation system as outlined in Appendix
     B before continuing with the rest of this section.
 
-    1.  Before beginning testing, try to come up with a high-level exploratory
-        test plan for how you intend to test the system. Record key details of
-        this plan, as it will be required in the lab report. This plan could
-        include but is not limited to, information such as: functions being
-        targeted, the approach to be taken (test most functions a little bit, or
-        test a few functions extensively, etc.), and how you plan to come up
-        with test cases (test most common paths, or exceptional paths, etc.).
-        Keep in mind that this does not need to necessarily be the best plan, as
-        long as it is justifiable.
+2. Before beginning testing, try to come up with a high-level exploratory
+    test plan for how you intend to test the system. Record key details of
+    this plan, as it will be required in the lab report. This plan could
+    include but is not limited to, information such as: functions being
+    targeted, the approach to be taken (test most functions a little bit, or
+    test a few functions extensively, etc.), and how you plan to come up
+    with test cases (test most common paths, or exceptional paths, etc.).
+    Keep in mind that this does not need to necessarily be the best plan, as
+    long as it is justifiable.
 
-        1.  Reporting defects: Carry out your devised exploratory test plan for
-            roughly half an hour. Each pair of students needs to perform
-            exploratory testing and record defects. While performing the tests,
-            if any of the actual results differ from the expected results,
-            report that as a defect. Record defects as they are found before
-            forgetting the defect and its detailed conditions, following the
-            advice of “reporting defects promptly”2. At the end, two pairs of
-            each group will review all defects and report them in the bug
-            tracking tool.
+3. Reporting defects: Carry out your devised exploratory test plan for
+    roughly half an hour. Each pair of students needs to perform
+    exploratory testing and record defects. While performing the tests,
+    if any of the actual results differ from the expected results,
+    report that as a defect. Record defects as they are found before
+    forgetting the defect and its detailed conditions, following the
+    advice of “reporting defects promptly”2. At the end, two pairs of
+    each group will review all defects and report them in the bug
+    tracking tool.
 
-            Reporting defects in a simple, concise manner ensures that the
-            developer who reads the defect report will know what the issue is,
-            and will be more likely to fix it. When reporting defects, use the
-            guidelines from section 2.2.3.
+    Reporting defects in a simple, concise manner ensures that the
+    developer who reads the defect report will know what the issue is,
+    and will be more likely to fix it. When reporting defects, use the
+    guidelines from section 2.2.3.
 
 # MANUAL SCRIPTED TESTING
 
@@ -500,8 +491,8 @@ bank account(s).
 
 # DELIVERABLES AND GRADING
 
->   For this assignment, you need to submit one excel file and one pdf files in
->   D2L and demo your findings in the lab.
+>   For this assignment, you need to submit one excel file and the lab report and demo your findings in the lab.
+
 
 # 3.1 DEMO (25%)
 
@@ -516,11 +507,11 @@ assignment, Lab2 is the demo day. You are expected to almost finish the
 assignment by the lab hour. All the team members should attend the lab. The TAs
 will go through the groups and each group must demonstrate examples of tests
 that they ran and bugs they found for each step, that is Exploratory testing,
-Scripted testing, and Regression testing. All team member should at least demo
+Scripted testing, and Regression testing. All team members should at least demo
 one passing and one failing test. For each failing test the student should also
 show the Backlog entry.
 
-# NOTE1: Student who miss the demo session or are unable to demo what is detailed above are considered as less-contributors and may lose up to the entire assignment 1’s mark.
+>   **NOTE1: Student who miss the demo session or are unable to demo what is detailed above are considered as less-contributors and may lose up to the entire assignment 1’s mark.**
 
 >   **NOTE2: You still have time to further improve your test cases and bug
 >   reports, after the demo session and before the deadline.**
@@ -528,7 +519,7 @@ show the Backlog entry.
 1.  **DEFECT REPORTS (35%)**
 
 Students will be graded on their defect reports. The full report (including
-detailed steps) generated by the tool must be submitted in D2L. Follow
+detailed steps) generated by the tool must be submitted to your GitHub repository. Follow
 “Projects” , “ATM Project” and then “Issues” and click on
 ![](media/509c82ba7336deb2fd720d8898f538c9.tmp) icon and the select “Excel” to
 generate full reports. Make sure that you report in Excel format not pdf because
@@ -543,7 +534,7 @@ for defect reports are as follows.
 
 # LAB REPORT (40%)
 
-To be consistent, please use the template Word file “Lab 1 Report Template.doc”
+To be consistent, please use the template Word file “Lab 1 Report Template.md"
 provided online inside the *lab_artifacts.zip* file. If desired, feel free to
 rename the sections, as long as the headings are still descriptive and accurate.
 You should upload each lab’s report in D2L before the due date.
