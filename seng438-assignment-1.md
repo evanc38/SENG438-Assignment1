@@ -211,16 +211,14 @@ experienced testers write effective and good-quality defect reports.
 
 # LAB ARTIFACTS
 
-In addition to a PDF file which is the lab document, each lab in this course
-will have a ZIP file in D2L called *lab_artifacts.zip*. Those files will include
-the lab artifacts for each lab, e.g., SUT executables, source code, lab report
-template Word file, etc.
+In addition to a markdown file which is the lab document, each lab in this course will have some other files. Those files will include the lab artifacts for each lab, e.g., SUT executables, source code, etc.
+
 
 # SYSTEM UNDER TEST
 
 The system under test for this lab is an ATM simulation system [1]. To get
 started with this system, download the *lab_artifacts.zip* file under Assignment
-1 in D2L. There are two versions of the ATM system inside that zip file which
+1. There are two versions of the ATM system inside that zip file which
 represent two consecutive releases of the software with bugs and bug fixes
 (details in the next sections):
 
@@ -534,10 +532,9 @@ for defect reports are as follows.
 
 # LAB REPORT (40%)
 
-To be consistent, please use the template Word file “Lab 1 Report Template.md"
-provided online inside the *lab_artifacts.zip* file. If desired, feel free to
-rename the sections, as long as the headings are still descriptive and accurate.
-You should upload each lab’s report in D2L before the due date.
+To be consistent, please use the template markdown file “assignment-1-report-template.md” provided online. If desired, feel free to rename the sections, as long as the headings are still descriptive and accurate.
+
+
 
 >   Marking scheme:
 
